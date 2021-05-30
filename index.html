@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        label.size{
+            font-size: 20px;
+        }
+        span{
+            color: red;
+        }
+        .checked{
+            color: orange;
+            font-size: 35px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="center">
+        <tr>
+            <td colspan="2">
+                <label class="size" for="name" style="font-weight: bold;">Name<span>*</span></label><br>
+                <input type="text" id="name" style="height: 25px; width: 200px; margin-top: 5px;">
+                <input type="text" id="name" style="margin-left: 20px; height: 25px; width: 200px;"><br>
+                <label>First</label>
+                <label style="margin-left: 200px;">Last</label>
+            </td>
+        </tr>    
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>    
+            <td>
+                <label class="size" for="email" style="font-weight: bold;">Email<span>*</span></label><br>
+                <input type="text" id="email" style="height: 30px; width: 430px;margin-top: 5px">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label class="size" for="experience" style="font-weight: bold;">Your experience <span>*</span></label><br>
+                <span class="fa fa-star checked" style="margin-top: 5px;"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br><br>
+                <label>Overall, how would you rate your experience with us?</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label class="size" for="satisfy" style="font-weight: bold;">How satisfied are you with <span>*</span></label>
+            </td>
+        </tr>
+        <tr>
+           <td>
+                <label for="vu" style="margin-left: 230px;">Very Unsatisfied</label>
+                <label for="u" style="margin-left: 100px;">Unsatisfied</label>
+                <label for="n" style="margin-left: 100px;">Neutral</label>
+                <label for="s" style="margin-left: 100px;">Satisfied</label>
+                <label for="vs" style="margin-left: 100px;">Very Satisfied</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: lightgray;">
+                <label class="size">Purchase</label>
+                <input type="radio" id="vu" style="margin-left: 200px;">
+                <input type="radio" id="u" style="margin-left: 170px;">
+                <input type="radio" id="n" style="margin-left: 150px;">
+                <input type="radio" id="s" style="margin-left: 135px;">
+                <input type="radio" id="vs" style="margin-left: 160px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="size">Service</label>
+                <input type="radio" id="vu" style="margin-left: 213px;">
+                <input type="radio" id="u" style="margin-left: 170px;">
+                <input type="radio" id="n" style="margin-left: 150px;">
+                <input type="radio" id="s" style="margin-left: 135px;">
+                <input type="radio" id="vs" style="margin-left: 160px;">
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: lightgray;">
+                <label class="size">Company Overall</label>
+                <input type="radio" id="vu" style="margin-left: 130px;">
+                <input type="radio" id="u" style="margin-left: 170px;">
+                <input type="radio" id="n" style="margin-left: 150px;">
+                <input type="radio" id="s" style="margin-left: 135px;">
+                <input type="radio" id="vs" style="margin-left: 160px;">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label class="size" for="satisfy" style="font-weight: bold;">How likely are you to <span>*</span></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                 <label for="vu" style="margin-left: 230px;">Very Unlikely</label>
+                 <label for="u" style="margin-left: 130px;">Unlikely</label>
+                 <label for="n" style="margin-left: 100px;">Neutral</label>
+                 <label for="s" style="margin-left: 110px;">Likely</label>
+                 <label for="vs" style="margin-left: 120px;">Very likely</label>
+             </td>
+         </tr>
+         <tr>
+             <td style="background-color: lightgray;">
+                 <label class="size">Buy from us again</label>
+                 <input type="radio" id="vu" style="margin-left: 127px;">
+                 <input type="radio" id="u" style="margin-left: 170px;">
+                 <input type="radio" id="n" style="margin-left: 150px;">
+                 <input type="radio" id="s" style="margin-left: 135px;">
+                 <input type="radio" id="vs" style="margin-left: 160px;">
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <label class="size">Recommend our<br> product to others</label>
+                 <input type="radio" id="vu" style="margin-left: 140px;">
+                 <input type="radio" id="u" style="margin-left: 170px;">
+                 <input type="radio" id="n" style="margin-left: 150px;">
+                 <input type="radio" id="s" style="margin-left: 135px;">
+                 <input type="radio" id="vs" style="margin-left: 160px;">
+             </td>
+         </tr>
+         <tr>
+             <td style="background-color: lightgray;">
+                 <label class="size">Recommend our<br> company to others</label>
+                 <input type="radio" id="vu" style="margin-left: 128px;">
+                 <input type="radio" id="u" style="margin-left: 170px;">
+                 <input type="radio" id="n" style="margin-left: 150px;">
+                 <input type="radio" id="s" style="margin-left: 135px;">
+                 <input type="radio" id="vs" style="margin-left: 160px;">
+             </td>
+         </tr>
+         <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label class="size" for="additional" style="font-weight: bold;">Additional comments or suggestions</label><br>
+                <input type="text" id="additional" style="width: 1013px; height: 140px; margin-top: 5px;">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" style="width:100px; height:50px; background-color: lightgray;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
